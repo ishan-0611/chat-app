@@ -1,0 +1,51 @@
+# Node modules (both frontend and backend)
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by testing tools
+coverage/
+
+# Build output (React build or server dist)
+build/
+dist/
+
+# Dependency directories (if using yarn workspaces or monorepo)
+packages/*/node_modules/
+
+# Environment variable files
+.env
+.env.* 
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: Cache & debug
+.cache/
+.nyc_output/
+*.tgz
+
+# Optional: local SSL certs, uploads, etc.
+certs/
+uploads/
+*.pem
